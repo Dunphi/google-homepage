@@ -1,0 +1,54 @@
+body{
+    background-color: gray;
+}
+
+li{
+    float: left;
+}
+a{
+    display: block;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+ul li a{
+    
+    float: right;
+    width: auto;
+    padding: 10px;
+    background-color: white;   
+    text-align: center;
+}
+
+#nav{
+    background-color: white;
+    grid-column: ;
+}
+
+#container1{
+}
+
+
+
+.container1{
+justify-self: center;
+}
+
+.image{
+    Margin-top: 100px;
+    width: 100%;
+    background-color: tomato;
+}
+
+#image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bot: auto;
+    width: 350px;
+}
