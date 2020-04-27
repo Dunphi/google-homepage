@@ -1,0 +1,144 @@
+html{
+    height: 100%;
+    min-height: 100%
+}
+
+body{
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-rows: 40px auto 30px;
+   height: 100%;
+}
+
+
+#navbar{
+display: grid; 
+grid-template-columns: repeat(4, 1fr);  
+grid-template-rows: 1; 
+grid-column: 3/4;
+grid-row: 1;
+}
+
+#Gmail{
+grid-column: 1/2;
+}
+
+#Afbeeldingen{
+grid-column: 2/3;
+}
+
+#Apps{
+grid-column: 3/4;   
+}
+
+#Apps img{
+    height: 30px;
+}
+
+#Sign-in{
+grid-column: 4/5;
+}
+
+#main{
+    display: grid;
+    grid-row: 2;
+    grid-column: 2;
+    grid-row-gap: 5px;
+    grid-template-columns:1 ;
+    grid-template-rows:repeat(4, 70px) ;
+}
+
+#logo{
+    grid-row:1/2 ;
+    grid-column: 1;
+    justify-self: center;
+    align-self: center;
+}
+
+#searchbar{
+    grid-row:2/3 ;
+    grid-column: 1;
+    justify-self: center;
+    align-self: center;
+}
+
+
+#buttons{
+    grid-row: 3/4;
+    grid-column: 1;
+    justify-self: center;
+    align-self: center;
+}
+
+#language{
+    grid-row: 4/5;
+    grid-column: 1;
+    justify-self: center;
+    align-self: center;
+    
+}
+
+#footer-left{
+    display: grid;
+    grid-row: 3/4;
+    grid-column: 1/2;
+    grid-template-columns:repeat(3, 75px) 200px;
+    grid-template-rows: 1;
+}
+
+#Adverteren{
+    grid-row: 1;
+    grid-column: 1/2;   
+    justify-self: left;
+    align-self: center; 
+}
+
+#Bedrijf{
+grid-row: 1;
+grid-column: 2/3;
+justify-self: left;
+align-self: center;    
+}
+
+#Over{
+grid-row: 1;
+grid-column: 3/4;
+justify-self: left;
+align-self: center;  
+}
+
+#How{
+grid-row: 1;
+grid-column: 4/5;
+justify-self: left;
+align-self: center;  
+}
+
+#footer-right{
+display: grid;
+grid-row: 3/4;
+grid-column: 3/4;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: 1;
+}
+
+#Privacy{
+grid-row: 1;
+grid-column: 1/2;
+justify-self: left;
+align-self: center;  
+}
+
+#Voorwaarden{
+grid-row: 1;
+grid-column: 2/3; 
+justify-self: left;
+align-self: center; 
+}
+
+#Instellingen{
+grid-row: 1;
+grid-column: 3/4; 
+justify-self: left;
+align-self: center; 
+}
